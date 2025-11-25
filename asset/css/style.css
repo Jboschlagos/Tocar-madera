@@ -1,0 +1,20 @@
+img {
+    max-width: 80%; border: 2px solid #3a3a3a; border-radius: 50px;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-align: center;
+}
