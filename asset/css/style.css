@@ -1,5 +1,5 @@
 img {
-     border-radius: 50px;
+    border-radius: 50px;
 }
 
 .productos {
@@ -15,11 +15,10 @@ img {
     background: #fff;
     padding: 15px;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     text-align: center;
 }
 
 body {
-    background-color:rgb(177, 179, 180);
+    background-color: rgb(177, 179, 180);
 }
-
