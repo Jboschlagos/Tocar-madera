@@ -11,7 +11,7 @@
 
 <body>
   <header>
-    <h4> Hecho a mano | Hecho en Chile </h4>
+    <preheader class="preheader"> Hecho a mano | Hecho en Chile </preheader>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
         <img src="./asset/img/Logo sin fondo.png" width="100" alt="Logo Tocar Madera" />
@@ -72,7 +72,14 @@
 
     <section id="contacto">
       <h2>Contacto</h2>
-      <p>Para consultas, contáctanos en </p>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus preguntas</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
     </section>
   </main>
 
