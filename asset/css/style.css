@@ -121,7 +121,7 @@ h4 {
   font-style: italic;
 }
 
-h5 {
+h5, h1 {
   font-weight: 400px !important; 
   text-align: center;
   font-style: italic;
