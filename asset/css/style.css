@@ -6,6 +6,7 @@
     flex-wrap: wrap;
 }
 
+
 .productos .card {
     width: 250px;
     background: #ffffff;
@@ -109,4 +110,19 @@ footer {
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   text-align: center;
+}
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+h4 {
+  font-weight: 600px !important; 
+  text-align: center;
+  font-style: italic;
+}
+
+h5 {
+  font-weight: 400px !important; 
+  text-align: center;
+  font-style: italic;
 }
