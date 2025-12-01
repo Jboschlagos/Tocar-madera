@@ -5,18 +5,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tocar Madera</title>
-  <link rel="stylesheet" href="./asset/css/style.css" />
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./asset/css/style.css" />
 </head>
 
 <body>
+
+  <div class="preheader text-center py-1 bg-dark text-white">
+    Hecho a mano | Hecho en Chile
+  </div>
+
   <header>
-    <preheader class="preheader"> Hecho a mano | Hecho en Chile </preheader>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
-        <img src="./asset/img/Logo-sin-fondo.png" width="100" alt="Logo Tocar Madera" />
+
+        <a href="index.html">
+          <img src="./asset/img/Logo-sin-fondo.png" width="100" alt="Logo Tocar Madera" />
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -24,63 +33,62 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Iniciativa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carro.html">Carro de<br>compras 🛒</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Iniciativa</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="carro.html">Carro de<br>compras 🛒</a></li>
           </ul>
         </div>
+
       </div>
     </nav>
-
   </header>
+
   <main>
-    <section id="acerca" class="container mt-4">
+
+    <section id="acerca" class="container mt-4 text-center">
       <h2>Acerca de Nosotros</h2>
       <p>
-        Promocion difusion, puesta en valor y venta de productos de artesania en madera locales
+        Promoción, difusión, puesta en valor y venta de productos de artesanía en madera locales.
+      </p>
+    </section>
+
+    <div class="mt-4 d-flex justify-content-center">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width:300px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./asset/img/corbata.jpg" class="d-block w-100" alt="corbata">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/lampara.jpg" class="d-block w-100" alt="lampara">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/bandeja.png" class="d-block w-100" alt="bandeja">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/artesano1.jpeg" class="d-block w-100" alt="artesano">
+          </div>
+          <div class="carousel-item">
+            <img src="./asset/img/" class="d-block w-100" alt="artesana">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="container text-center mt-5">
+      <h4>¿Y si consideramos el oficio como nuestro más fiel testimonio?</h4>
+      <h5>Gabriela Mistral, 1927</h5>
+
+      <h1 class="mt-4">¿Qué buscamos?</h1>
+      <p class="text-center">
+        Promocionar y difundir el trabajo de artesanos locales que trabajan la madera como materia prima principal,
+        poniendo en valor sus técnicas tradicionales y su vínculo con el entorno natural. A través de entrevistas,
+        contenido exclusivo y una tienda colaborativa, buscamos conectar a los artesanos con una audiencia más amplia,
+        fomentando el aprecio por la artesanía en madera y apoyando la sostenibilidad económica de estos oficios.
       </p>
     </section>
 
 
-    <div class="mt-4">
-      <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-bs-ride="carousel" style="width:300px;">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./asset/img/corbata.jpg" width="300px" alt="imagen1">
-          </div>
-          <div class="carousel-item">
-            <img src="./asset/img/lampara.jpg" width="300px" alt="imagen2">
-          </div>
-          <div class="carousel-item">
-            <img src="./asset/img/bandeja.png" width="300px" alt="imagen3">
-          </div>
-          <div class="carousel-item">
-            <img src="./asset/img/artesano1.jpeg" width="300px" alt="imagen4">
-          </div>
-          <div class="carousel-item">
-            <img src="./asset/img/artesano3.webp" width="300px" alt="imagen5">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <h4> ¿y si consideramos el oficio como nuestro mas fiel testimonio </h4>
-      <h5> Gabriela Mistral, 1927 </h5>
-      <div>
-        <h1> ¿Que buscamos? </h1>
-        <p class="text-center"> Promocionar y difundir el trabajo de artesanos locales que trabajan la madera como materia prima principal,
-          poniendo en valor sus técnicas tradicionales y su vínculo con el entorno natural. A través de entrevistas,
-          contenido exclusivo y una tienda colaborativa, buscamos conectar a los artesanos con una audiencia más amplia,
-          fomentando el aprecio por la artesanía en madera y apoyando la sostenibilidad económica de estos oficios. </p>
-      </div>
-    </div>
     <section id="newsletter" class="container mt-5 mb-5 p-4 bg-light rounded shadow-sm">
       <h2 class="mb-3">Únete a nuestro Newsletter</h2>
       <p class="mb-4">
@@ -98,10 +106,12 @@
       </form>
     </section>
 
+
     <section id="entrevistas" class="container mt-5 mb-5">
       <h2 class="mb-4">Entrevistas</h2>
 
       <div class="row g-4">
+
 
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
@@ -114,9 +124,10 @@
           </div>
         </div>
 
+
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img src="./asset/img/artesano3.webp" class="card-img-top" alt="Artesano 3">
+            <img src="./asset/img/artesano3.webp" class="card-img-top" alt="Artesana 3">
             <div class="card-body">
               <h5 class="card-title">María — Carpintera Mueblista</h5>
               <p class="card-text">Cómo combina tradición y diseño contemporáneo en sus piezas.</p>
@@ -140,24 +151,28 @@
       </div>
     </section>
 
+
     <section id="contacto" class="container mt-5">
       <h2>Contacto</h2>
+
       <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="name@example.com">
       </div>
+
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Déjanos tus preguntas</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="mensaje" class="form-label">Déjanos tus preguntas</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
       </div>
     </section>
+
   </main>
 
-  <footer class="text-center mt-5 p-3 bg-light">
+
+  <footer class="text-center mt-5 p-3 bg-gray-200">
     <img src="./asset/img/Logo-sin-fondo.png" width="50" alt="Logo Tocar Madera" />
     <p>&copy; 2025 Tocar Madera. Todos los derechos reservados.</p>
     <p>Tienda colaborativa</p>
-
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>

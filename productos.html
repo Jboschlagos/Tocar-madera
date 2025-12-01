@@ -5,11 +5,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Tocar Madera</title>
-  <link rel="stylesheet" href="./asset/css/style.css" />
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="./asset/css/style.css" />
 </head>
 
 <body>
+
+  <!-- NAVBAR -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div class="container-fluid">
@@ -20,89 +26,82 @@
 
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"> Iniciativa </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="productos.html"> Productos </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carro.html"> Carro de compras 🛒</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="index.html">Iniciativa</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="carro.html">Carro de compras 🛒</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section id="home">
-      <h2>Bienvenido a Tocar Madera</h2>
-      <p>Explora nuestra colección de productos de madera hechos a mano.</p>
 
-      <div class="productos">
-        <div class="card">
-          <img src="./asset/img/lampara.jpg" width="200px" alt="lampara de madera" />
-          <h3>Lámpara de madera</h3>
-          <p>
-            Fabricada en madera de lenga con la técnica japonesa de Kumiko, que consiste en ensamblar piezas sin clavos
-            ni pegamento.
-          </p>
-          <p class="precio"> $89.000 </p>
-          <div class="d-grid gap-2 col-6 mx-auto">
-            <a href="lampara1.html" class="btn btn-primary">Ver más</a>
-            <div class="d-grid gap-2">
-              <a href="carro.html" class="btn btn-primary btn-lg">
-                Agregar al carrito
-              </a>
-            </div>
-          </div>
+  <!-- CONTENIDO -->
+  <main class="container my-5 text-center">
+
+    <h2>Bienvenido a Tocar Madera</h2>
+    <p>Explora nuestra colección de productos de madera hechos a mano.</p>
+
+    <!-- TARJETAS DE PRODUCTOS -->
+    <div class="productos">
+
+      <!-- TARJETA 1 -->
+      <div class="card">
+        <img src="./asset/img/lampara.jpg" width="200" alt="lampara de madera" />
+        <h3>Lámpara de madera</h3>
+        <p>
+          Fabricada en madera de lenga con la técnica japonesa de Kumiko,
+          que consiste en ensamblar piezas sin clavos ni pegamento.
+        </p>
+        <p class="precio">$89.000</p>
+
+        <div class="d-grid gap-2 col-8 mx-auto">
+          <a href="lampara1.html" class="btn btn-primary">Ver más</a>
+          <a href="carro.html" class="btn btn-primary btn-lg">Agregar al carrito</a>
         </div>
+      </div>
 
+      <!-- TARJETA 2 -->
+      <div class="card">
+        <img src="./asset/img/corbata.jpg" width="200" alt="corbata de madera" />
+        <h3>Corbata de madera</h3>
+        <p>
+          Corbata ideal para matrimonios o eventos, hecha a mano con maderas nativas del sur de Chile.
+        </p>
+        <p class="precio">$25.000</p>
 
-        <div class="card">
-          <img src="./asset/img/corbata.jpg" width="200px" alt="corbata de madera" />
-          <h3>Corbata de madera</h3>
-          <p>
-            Corbata ideal para matrimonios o eventos, hecha a mano con maderas nativas del sur de Chile.
-          </p>
-          <p class="precio"> $25.000 </p>
-          <div class="d-grid gap-2 col-6 mx-auto">
-            <a href="corbata.html" class="btn btn-primary">Ver más</a>
-            <div class="d-grid gap-2">
-              <a href="carro.html" class="btn btn-primary btn-lg">
-                Agregar al carrito
-              </a>
-            </div>
-          </div>
+        <div class="d-grid gap-2 col-8 mx-auto">
+          <a href="corbata.html" class="btn btn-primary">Ver más</a>
+          <a href="carro.html" class="btn btn-primary btn-lg">Agregar al carrito</a>
+        </div>
+      </div>
 
+      <!-- TARJETA 3 -->
+      <div class="card">
+        <img src="./asset/img/bandeja.png" width="200" alt="bandeja de madera" />
+        <h3>Bandeja en madera nativa</h3>
+        <p>
+          Bandeja hecha por artesanos del sur de Chile con madera rescatada del Lago Ranco.
+        </p>
+        <p class="precio">$25.000</p>
 
-          <div class="card">
-            <img src="./asset/img/bandeja.png" width="200px" alt="bandeja de madera" />
-            <h3>Bandeja en madera nativa</h3>
-            <p>
-              Bandeja hecha por artesanos del sur de Chile con madera rescatada del Lago Ranco.
-            </p>
-            <p class="precio"> $25.000 </p>
-            <div class="d-grid gap-2 col-6 mx-auto">
-              <a href="bandeja.html" class="btn btn-primary">Ver más</a>
-              <div class="d-grid gap-2">
-                <a href="carro.html" class="btn btn-primary btn-lg">
-                  Agregar al carrito
-                </a>
-              </div>
-            </div>
+        <div class="d-grid gap-2 col-8 mx-auto">
+          <a href="bandeja.html" class="btn btn-primary">Ver más</a>
+          <a href="carro.html" class="btn btn-primary btn-lg">Agregar al carrito</a>
+        </div>
+      </div>
 
-          </div>
-    </section>
+    </div>
   </main>
 
+
+  <!-- FOOTER -->
   <footer class="text-center mt-5 p-3 bg-light">
     <img src="./asset/img/Logo-sin-fondo.png" width="50" alt="Logo Tocar Madera" />
     <p>&copy; 2025 Tocar Madera. Todos los derechos reservados.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
 
+</body>
 </html>

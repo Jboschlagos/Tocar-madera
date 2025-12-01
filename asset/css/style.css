@@ -1,110 +1,59 @@
+
+.productos {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+
 .card {
-    width: 250px;
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 12px;
+  width: 280px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
 }
 
-.card .d-grid {
-  width: 100%;   
-}
-
-img {
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #3a3535;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-    border: solid 1px #000;
-    border-radius: 10px;
-}
-
-.preheader {
-    display: block;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    padding: 8px 0;
-    text-align: center;
-    font-size: 14px;
-
-}
-
-#contacto {
-    margin: 20px auto;
-    text-align: center;
-    background-color: #e0e0e0;
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#acerca {
-    margin-top: 20px;
-    text-align: center;
-    margin-block-end: auto;
-}
-
-#mision {
-    margin-top: 20px;
-    text-align: center;
-    margin-block-end: auto;
-}
-
-#about {
-    margin: 0 auto;
-    border: solid 1px #4b4b4b;
-    border-radius: 10px;
-    margin-top: 20px;
-    text-align: center;
-    margin-block-end: auto;
-    width: 600px;
-    padding: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-.producto-detalle {
-    text-align: center;
-    margin-top: 20px;
+.card img {
+  border-radius: 10px;
 }
 
 
 .precio {
-    font-size: 20px;
-    font-weight: bold;
-    color: hwb(214 6% 20%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a4dd8;
 }
 
-.carro-card {
-  max-width: 500px;
-  margin: 20px auto;
-  background: #ffffff;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  text-align: center;
-}
-* {
+
+* { 
   font-family: "Poppins", sans-serif !important;
 }
 
-h4 {
-  font-weight: 600px !important; 
-  text-align: center;
-  font-style: italic;
+
+h4 { 
+  font-weight: 600 !important; 
+  text-align: center; 
+  font-style: italic; 
 }
 
 h5, h1 {
-  font-weight: 400px !important; 
+  font-weight: 400 !important; 
+  text-align: center; 
+  font-style: italic; 
+}
+
+
+.preheader {
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 5px 0;
   text-align: center;
-  font-style: italic;
 }
