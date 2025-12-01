@@ -1,13 +1,4 @@
-.productos {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-    flex-wrap: wrap;
-}
-
-
-.productos .card {
+.card {
     width: 250px;
     background: #ffffff;
     padding: 20px;
@@ -24,16 +15,12 @@
   width: 100%;   
 }
 
-body {
-    background-color: rgb(177, 179, 180);
-}
-
 img {
     border-radius: 10px;
 }
 
 footer {
-    background-color: #929292;
+    background-color: #3a3535;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
@@ -90,11 +77,6 @@ footer {
     margin-top: 20px;
 }
 
-#home {
-    margin-top: 20px;
-    text-align: center;
-    margin-block-end: auto;
-}
 
 .precio {
     font-size: 20px;
